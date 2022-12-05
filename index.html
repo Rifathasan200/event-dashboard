@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+    <section id="event-part">
+        <div class="row">
+            <div class="col-lg-2 res-xs">
+                <div class="left">
+                    <div class="images-part">
+                     <div class="img">
+                         <img src="images/man-img.png" alt="man-img">
+                        <a class="downloade" href="#">
+                            <img src="images/download icon.png" alt="download icon">
+                        </a>
+                     </div>
+                    </div>
+                    <h3>Richard...</h3>
+                    <ul>
+                        <li class="home">
+                            <a href="#">
+                                <img src="images/home icon.png" alt="home icon">
+                            </a>
+                        </li>
+                        <li class="setting">
+                            <a href="#">
+                                <img src="images/setting-icon.png" alt="setting-icon">
+                            </a>
+                        </li>
+                        <li class="mail">
+                            <a href="#">
+                                <img src="images/mail-icon.png" alt="mail-icon">
+                            </a>
+                        </li>
+    
+                        <li class="event">
+                                <a href="#">
+                                    <img src="images/create-event-icon.png" alt="create-event-icon">
+                                </a>
+                                <div class="active">
+                                    <div class="text-box">
+                                        <p>Create Event</p>
+                                    </div>
+                                </div>   
+                        </li>
+                        <li class="exit">
+                            <a href="#">
+                                <img src="images/exit-icon.png" alt="exit-icon">
+                            </a>
+                        </li>
+                    </ul>
+                    
+                        <i class="fa-solid fa-arrow-right dash-icon"></i>
+                    
+                 </div>
+            </div>
+
+            
+            <div class="col-lg-10 res-xs-big">
+                <div class="right">
+                    <div class="nav">
+                            <div class="nav-brand">
+                                <h2>Dashboard</h2>
+                            </div>
+                            <div class="nav-item">
+                                <ul>
+                                    <li><a class="active" href="#">Dashboard <span>/</span></a></li>
+                                    <li><a href="#"> Create Event</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="form-box">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form">
+                                    <div class="form-item">
+                                        <input type="text" id="username" autocomplete="off" required>
+                                        <label for="username">Event Name</label>
+                                      </div>
+                                      <div class="form-item">
+                                        <input type="date" id="date" autocomplete="off" required>
+                                        <label for="date">Start Date</label>
+                                      </div>
+                                      <div class="form-item">
+                                        <input type="time" id="Start-time" autocomplete="off" required>
+                                        <label for="Start-time">Start Time</label>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="right-form">
+                                    <div class="right-form-item">
+                                        <input type="text" id="right-one" autocomplete="off" required>
+                                        <label for="right-one">Event Title</label>
+                                      </div>
+                                      <div class="right-form-item">
+                                        <input type="date" id="end-date" autocomplete="off" required>
+                                        <label for="end-date">End Date</label>
+                                      </div>
+                                      <div class="right-form-item">
+                                        <input type="text" id="end-time" autocomplete="off" required>
+                                        <label for="end-time">End Time</label>
+                                      </div>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                        <div class="button">
+                            <a href="#">All Day</a>
+                        <a class="active" href="#">Recurring</a>
+                        </div>
+                        <h3>Recurring Type:</h3>
+                        <div class="recurring-button">
+                            <a href="#">Daily</a>
+                        <a class="active" href="#">Weekly</a>
+                        <a href="#">Monthly</a>
+                        </div>
+                        <div class="day-name">
+                            <div class="day">
+                                <div class="checkbox active"></div>
+                                <a href="#">Saturday</a>
+                            </div>
+                            <div class="day">
+                                <div class="checkbox"></div>
+                                <a href="#">Sunday</a>
+                            </div>
+                            <div class="day">
+                                <div class="checkbox"></div>
+                                <a href="#">Monday</a>
+                            </div>
+                            <div class="day">
+                                <div class="checkbox"></div>
+                                <a href="#">Tuesday</a>
+                            </div>
+                            <div class="day">
+                                <div class="checkbox"></div>
+                                <a href="#">Wednesday</a>
+                            </div>
+                            <div class="day">
+                                <div class="checkbox"></div>
+                                <a href="#">Thursday</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                               <div class="form">
+                                <div class="form-item">
+                                    <input type="text" id="Location" autocomplete="off" required>
+                                    <label for="Location">Event Name</label>
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="uploade-box">
+                                    <div class="img">
+                                        <img src="images/women-img.png" alt="women-img">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+                                    <div class="file">
+                                        <a href="#">Upload file</a>
+                                        <p>No file chossen...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                         <div class="title">
+                            <h2>Guest:</h2>
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                               </div>
+                         </div>  
+                         <div class="guest-form">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form">
+                                        <div class="form-item">
+                                            <input type="text" id="Name" autocomplete="off" required>
+                                            <label for="Name">Name</label>
+                                          </div>
+                                       </div>
+                                       
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form">
+                                        <div class="form-item">
+                                            <input type="text" id="Email" autocomplete="off" required>
+                                            <label for="Email">Email</label>
+                                          </div>
+                                       </div>
+                                </div>
+                            </div>
+                         </div>
+    
+                         <div class="title">
+                            <h2>Schedule:</h2>
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                               </div>
+                         </div>  
+                         <div class="guest-form">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form">
+                                        <div class="form-item">
+                                            <input type="text" id="Time" autocomplete="off" required>
+                                            <label for="Time">Time</label>
+                                          </div>
+                                       </div>
+                                       
+                                </div>
+                                <div class="col-lg-6 col-sm-6">
+                                    <div class="form">
+                                        <div class="form-item">
+                                            <input type="text" id="Task" autocomplete="off" required>
+                                            <label for="Task">Task</label>
+                                          </div>
+                                       </div>
+                                </div>
+                            </div>
+                         </div>
+    
+                         <div class="form">
+                            <div class="form-item">
+                                <input type="text" class="message" id="Description" autocomplete="off" required>
+                                <label for="Description">Description</label>
+                              </div>
+                           </div>
+                       
+        
+                            <a class="create-button" href="#">Create Event</a>
+               
+                        
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
